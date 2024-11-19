@@ -1,5 +1,6 @@
 import SideNav from "../ui/dashboard/sidenav";
-
+//activating ppr
+//export const experimental_ppr = true;
 //children -> the pages inside /dashboard will automatically be nested inside a <Layout />
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (

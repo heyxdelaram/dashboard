@@ -1,3 +1,5 @@
+//allowing to query the DB
+//we can call 'sql' inside any server component
 import { sql } from "@vercel/postgres";
 import {
   CustomerField,
